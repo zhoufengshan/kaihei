@@ -1,0 +1,125 @@
+.content{
+    height: 430px;
+    width: 630px;
+    margin: auto auto;
+    background-color: rgb(28,36,57);
+    /*background: url("../img/friend/backimg.png") no-repeat;*/
+}
+
+.content_top{
+    height: 40px;
+    background-color: rgb(41,56,84);
+}
+
+.cont_top .nav{
+    float: left;
+}
+.close_{
+    width: 14px;
+    height: 14px;
+    float: right;
+    margin: 10px 13px;
+    cursor: pointer;
+}
+
+.menu{
+    margin-left: 50px;
+}
+
+.menu li{
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    vertical-align: middle;
+    padding-right: 25px;
+    cursor:pointer;
+    color: rgb(166,171,183);
+    font-size: 16px;
+}
+
+.menu li:hover, .menu li.on{
+    color:#21e553;
+}
+.too{
+    height: 60px;
+    width: 550px;
+    margin-bottom: 30px;
+}
+
+.cont{
+    height: 390px;
+    width: 630px;
+    clear:both;
+}
+
+ul,li{
+    list-style-type:none;
+}
+
+.friend_list{
+    width: 550px;
+    height: 60px;
+    margin: 25px 50px;
+}
+
+.list{
+    width: 160px;
+    height: 60px;
+    float: left;
+}
+
+.img{
+    height: 60px;
+    width: 60px;
+    float: left;
+}
+
+.img img {
+    height: 60px;
+    width: 60px;
+}
+
+.info{
+    height: 60px;
+    width: 90px;
+    float: left;
+    padding-left: 6px;
+}
+
+.nickname{
+    height: 30px;
+    width: 90px;
+    line-height: 30px;
+}
+
+.nickname span{
+    line-height: 28px;
+    color: rgb(166,171,183);
+    font-size: 14px;
+    padding-left: 6px;
+}
+
+.send{
+    height: 28px;
+    width: 90px;
+    line-height: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: 5px;
+}
+
+.send span{
+    border: 1px solid rgb(75,85,105);
+    background-color: rgb(41,56,84);
+    color: rgb(106,116,136);
+    padding:1.5px 5px;
+    font-size: 14px;
+}
+
+.ss span {
+    border: 1px solid #21e553;
+    background-color: rgb(41,56,84);
+    color: #21e553;
+    padding:1.5px 5px;
+    font-size: 14px;
+}

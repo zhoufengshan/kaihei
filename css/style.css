@@ -1,0 +1,359 @@
+/*=++++++++++++++++++++++++++登陆+++++++++++++++++++++++*/
+.login_con{width:310px;margin:0 auto;}
+.login_td{
+	float: left;cursor:pointer;
+	width:84%;height:52px;}
+.ipt_p3{
+	color:#ff0000;
+	font-size: 12px;
+	margin:5px 0px;
+}
+.ipt_ipt3_{
+	background:url(../img/zhuce/log_regxt.png)11px -65px no-repeat;
+	margin-top: 8px; 
+}.ipt_ipt3_:hover{
+	box-shadow: 0 0 10px #2bdf57;
+	background:url(../img/zhuce/log_regxt.png)11px -101px no-repeat;
+	margin-top: 8px; 
+}
+.reg_fwxy_con .login_wjmm,.login_wjmm{
+	color:#2362a3;
+}
+.login_zc{display: inline-block; margin-top:7px;}
+.login_dl{margin-top: 7px;}
+.login_dsf{margin:26px auto 0px;text-align: center;}
+.login_dsf_tit{
+	width:310px;color:#9ba1a7;text-align: center;font-size: 18px;
+	background:url(../img/zhuce/dsftit.png)center center no-repeat; 
+}
+.login_dsf_{
+	display: inline-block;
+	width:30px;height:30px;
+	margin:22px 8px;
+}
+.login_dsf_wx{
+	background:url(../img/zhuce/login_dsf_.png)-17px -60px no-repeat; 
+}
+.login_dsf_wx:hover{
+	background:url(../img/zhuce/login_dsf_.png)-17px -8px no-repeat; 
+}
+.login_dsf_qq{
+	background:url(../img/zhuce/login_dsf_.png)-71px -60px no-repeat; 
+}
+.login_dsf_qq:hover{
+	background:url(../img/zhuce/login_dsf_.png)-71px -8px no-repeat; 
+}
+.login_dsf_wb{
+	background:url(../img/zhuce/login_dsf_.png)-126px -60px no-repeat; 
+}
+.login_dsf_wb:hover{
+	background:url(../img/zhuce/login_dsf_.png)-127px -8px no-repeat; 
+}
+.login_visitor{
+	margin:0 auto;font-size: 14px;
+	border:1px solid #6a717a;cursor:pointer;
+	width:128px;color:#6a717a;
+	padding:9px 0px;text-align: center;
+}
+.login_visitor:hover{border:1px solid #fff;color:#fff;}
+.login_qrcode{
+	display: inline-block;
+	width:22px;height:22px;float: right;margin:15px -30px 0px 0px;
+	background:url(../img/zhuce/login_qrcode.png)center center no-repeat; 
+}
+/*=======================扫码登录=========================*/
+.login_erweima{
+	width:254px;
+	margin:30px auto 0px;
+}
+.login_erweima p{
+	text-align: center;
+	color:#fff;
+	font-size: 14px;
+	margin-top:13px; 
+}
+.login_erweima_footer{
+	display: inline-block;
+	width:100%;height:50px;text-align: center;
+	margin-top:76px;line-height: 50px;
+	background-color: #06273a;color:#3fec5b;font-size: 14px;
+}
+
+/*+++++++++++++++++++++++++++注册+++++++++++++++++++++++++*/
+.zc{
+	width:400px;height:570px;margin:0 auto;overflow: hidden;
+	background:url(../img/zhuce/reg_bg.png) 0 0 no-repeat; 
+}
+.zc-fh{
+	float: left;
+	margin:18px 0px 10px 13px;
+	color:#686e7e;cursor:pointer;
+}
+.zc-fh:hover{
+	color:#1fb237;
+}
+.zc-td_{
+	float: left;cursor:pointer;
+	width:63%;height:105px;
+}
+.zc-btn1{
+	float: right;cursor:pointer;
+	width:19px;height: 19px;
+	margin:22px 12px 0px 0px;
+	background:url(../img/zhuce/zxh_gb.png)-1px 0px no-repeat;
+}
+.zc-btn1:hover{background:url(../img/zhuce/zxh_gb.png)-1px -23px no-repeat;}
+.zc-btn2{
+	float: right;cursor:pointer;
+	width:19px;height: 19px;
+	margin:18px 12px 0px 0px;
+	background:url(../img/zhuce/zxh_gb.png)-40px 2px no-repeat;
+}
+.zc-btn2:hover{background:url(../img/zhuce/zxh_gb.png)-40px -21px no-repeat;}
+#title{width: 310px;overflow: hidden;margin:0 auto;}
+#title span{
+	font-size: 14px;
+	float: left;color: #9ca3ac;width:101px;
+	line-height: 40px;text-align: center;
+	border: 1px solid #767b8a;cursor: pointer;
+}
+#con{width: 310px;margin: 0 auto;}
+#con li{width: 310px;display: none;}
+#title .select{background:rgba(46,79,83,0.8);color:#2bdf57;border:1px solid #2bdf57;}
+#con .show{display: block;}
+.ipt_logo{
+	width:258px;height:38px;
+	padding-left: 50px;color:#fff;
+	border:1px solid #767b8a;font-size: 14px;
+}
+.ipt_ipt1{
+	background:url(../img/zhuce/log_regxt.png)11px 4px no-repeat;
+	margin-top: 20px; 
+}
+
+.ipt_ipt2{
+	width:131px;
+	background:url(../img/zhuce/log_regxt.png)11px -204px no-repeat;
+	margin-top: 25px; 
+}
+.ipt_ipt3{
+	background:url(../img/zhuce/log_regxt.png)11px -65px no-repeat;
+	margin-top: 25px; 
+}
+.ipt_ipt4{
+	background:url(../img/zhuce/log_regxt.png)11px -65px no-repeat;
+}
+.ipt_ipt1:hover{
+	box-shadow: 0 0 10px #2bdf57;
+	background:url(../img/zhuce/log_regxt.png)11px -32px no-repeat;
+}
+.ipt_ipt2:hover{
+	box-shadow: 0 0 10px #2bdf57;
+	background:url(../img/zhuce/log_regxt.png)11px -240px no-repeat;
+}
+.ipt_ipt3:hover{
+	box-shadow: 0 0 10px #2bdf57;
+	background:url(../img/zhuce/log_regxt.png)11px -101px no-repeat;
+}
+.ipt_ipt4:hover{
+	box-shadow: 0 0 10px #2bdf57;
+	background:url(../img/zhuce/log_regxt.png)11px -101px no-repeat;
+}
+.ipt_ipt5{
+	width:310px;height:48px;
+	margin: 0 auto;color: #fff;
+	font-size: 18px;border:none;cursor:pointer;
+	background:url(../img/zhuce/btn_.png)-340px 0px no-repeat; 
+}
+.ipt_ipt5:hover{background:url(../img/zhuce/btn_.png)-340px -68px no-repeat;}
+.send{
+	color: #2bdf57;width:116px;margin-left: 7px;
+	line-height: 38px;text-align: center;
+	border: 1px solid #2bdf57;cursor: pointer;
+	background-color:rgba(46,79,83,0.8);
+}
+.ipt_p1{
+	position: absolute;
+	color:#767b8a;
+	font-size: 12px;
+	margin:5px 0px;
+	display:none;
+}
+.ipt_p1_3{
+	position: absolute;
+	color:#767b8a;
+	font-size: 12px;
+	margin:5px 0px;
+	
+}
+.ipt_p1 a{
+	color:#f1830c;
+	margin-right: 5px;
+}
+.ipt_p2{
+	float:left;
+	color:#ff0000;
+	font-size: 12px;
+	margin: 5px 5px 5px 0px;
+}
+.reg_fwxy{width:310px;padding:15px 0px;color:#767b8a;overflow: hidden;}
+.reg_fwxy_xz{
+	float: left;cursor:pointer;
+	display: inline-block; width:12px;
+	height:12px;border:1px solid #767b8a;
+}
+.reg_fwxy_xz img{display: none;}
+.reg_fwxy_con{
+	float: left;margin-left: 5px;cursor:default;
+	display: inline-block;color:#767b8a;
+}
+.reg_fwxy_con a{color:#29d153;}
+/*+++++++++++自定义注册++++++++++++*/
+.ipt_ipt2_{
+	width:92px;
+	background:url(../img/zhuce/log_regxt.png)11px -204px no-repeat;
+	margin-top: 25px; 
+}
+.reg_img_{
+	float:right;
+	display: inline-block;
+	width:115px;margin-top:25px;
+	height:40px;
+	cursor: pointer;
+}
+.reg_ipt_img{
+	width:100%;height:100%;
+}
+.reg_ref_code{
+	float: right;margin:25px 0px 0px 6px;
+	width:40px;height:40px;
+	background:url(../img/zhuce/reg_sx.png)center center no-repeat; 
+	background-color: #29324a;
+}
+/*++++++++++++++++++++++++注册成功+++++++++++++++++++++++++*/
+.reg_suc{
+	width:310px;margin:0 auto;cursor:default;
+}
+._suc_{
+	color:#9ba1a7;
+	font-size:14px;
+	margin:24px 0px;
+}
+._suc_tit{
+	margin-top: 80px;
+}
+._suc_ span{color:#ed9902;font-size:14px;}
+._suc_oth span{
+	display: inline-block;
+	width:245px;height: 55px;
+	float: right;overflow: hidden;
+}
+._suc_btn{width:310px;margin:50px auto 0px;}
+._suc_btn a{
+	display: inline-block; width:96px;
+	padding:8px 0px 10px;
+	text-align: center;color:#9ba1a7;
+	border:1px solid #9ba1a7;
+}
+._suc_btn a:hover{
+	background:rgba(46,79,83,0.8);color:#2bdf57;border:1px solid #2bdf57;
+}
+/*++++++++++++++++++++++++++++++++++密保问题绑定+++++++++++++++++++++++++*/
+.sec_tit{text-align: center;margin-bottom:50px;font-size: 12px;}
+._wt_tit{
+	color:#9ba1a7;
+	font-size:14px;
+	margin:29px 0px 10px;
+}
+.mibaosel{
+	width:310px;height:38px;
+	padding-left: 50px;color:#9d9da5;
+	background-color: transparent;
+	border:1px solid #767b8a;font-size: 14px;
+	background:url(../img/zhuce/log_regxt.png)11px -274px no-repeat; 
+}
+.mibaosel:hover{background:url(../img/zhuce/log_regxt.png)11px -310px no-repeat;box-shadow: 0 0 10px #2bdf57;}
+.mibaosel option{
+	padding-left: 0px;
+	background-color:#060c18;
+}
+.ipt_ipt6{
+	background:url(../img/zhuce/log_regxt.png)11px -338px no-repeat;
+}
+.ipt_ipt6:hover{
+	box-shadow: 0 0 10px #2bdf57;
+	background:url(../img/zhuce/log_regxt.png)11px -374px no-repeat; 
+}
+.mibaotj,.fgtnext{
+	margin-top:38px;
+}
+/*++++++验证手机+++++++*/
+.mob_con2{display:none;}
+.mob_con1{display:block;cursor:pointer;}
+.syz_tit{color: #fff;margin:10px 0px;}
+.ipt_ipt7{
+	background:url(../img/zhuce/log_regxt.png)11px -134px no-repeat;
+}
+.ipt_ipt7:hover{
+	box-shadow: 0 0 10px #2bdf57;
+	background:url(../img/zhuce/log_regxt.png)11px -170px no-repeat;
+}
+.ipt_ipt7_{
+	width:131px;
+	background:url(../img/zhuce/log_regxt.png)11px -204px no-repeat;
+}
+.ipt_ipt7_:hover{
+	box-shadow: 0 0 10px #2bdf57;
+	background:url(../img/zhuce/log_regxt.png)11px -240px no-repeat;
+}
+.mob_wenzi{width:310px;margin:15px auto 0px;font-size:12px ;color:#767b8a;}
+.mob_wenzi p{float: left;}
+.mob_wenzi span{display: inline-block; width:286px;float: right;line-height: 17px;}
+.mob_btn{display: inline-block;line-height: 48px;text-align: center;
+	width:150px;height:48px;border:none;font-size: 18px;color:#fff;
+	background:url(../img/zhuce/btn_.png)0px 0px no-repeat; 
+}
+.mob_btn:hover{
+	width:150px;height:48px;
+	background:url(../img/zhuce/btn_.png)0px -68px no-repeat; 
+}
+.mob_btn_{display: inline-block;line-height: 48px;
+	width:150px;height:48px;border:none;font-size: 18px;color:#fff;
+	background:url(../img/zhuce/btn_.png)-170px 0px no-repeat; 
+}
+.mob_btn_:hover{
+	width:150px;height:48px;
+	background:url(../img/zhuce/btn_.png)-170px -68px no-repeat; 
+}
+.mob_foot{margin-top: 10px;}
+.mob_foot2{margin-top: 200px;}
+.mob_con2{width:310px;margin:0 auto;font-size: 16px;color:#ffa200;text-align: center;}
+.mob_con2 p:nth-child(1){margin-top: 52px;}
+.mob_con2 p:nth-child(2){margin-top: 35px;}
+/*============================忘记密码============================*/
+.fgt_tit{margin-bottom:10px;font-size: 12px;line-height:20px ;}
+._fgt_tit{
+	color:#9ba1a7;
+	font-size:14px;
+}
+/*.fgtpwd1{display: none;}*/
+.ipt_ipt_mailfgt{
+	margin-top: 19px;
+	background:url(../img/zhuce/log_regxt.png)11px -406px no-repeat;
+}
+.ipt_ipt_mailfgt:hover{
+	box-shadow: 0 0 10px #2bdf57;
+	background:url(../img/zhuce/log_regxt.png)11px -442px no-repeat;
+}
+.ipt_ipt_mibaofgt{
+	margin-top:19px;
+	background:url(../img/zhuce/log_regxt.png)11px -205px no-repeat;
+}
+.ipt_fgt_bd{box-shadow: 0 0 10px #2bdf57;}
+.ipt_ipt_mibaofgt:hover{
+	box-shadow: 0 0 10px #2bdf57;
+	background:url(../img/zhuce/log_regxt.png)11px -241px no-repeat;
+}
+.fgt_mob{margin-top: 20px;}
+.fgtpwd2{width:310px;display:block;position: absolute;top:200px;opacity: 0;z-index: -1;}
+.fgt_ipt_ipt6{margin-top: 25px;}

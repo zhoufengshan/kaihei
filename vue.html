@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <script src="../../vue.js"></script>
+    <title>Vue</title>
+</head>
+<body>
+<div class="doc">
+    <p v-bind:title="message">查看提示信息</p>
+    <span v-for="i in 10">{{i}}</span>
+    <!--<span v-if="Math.random()>0.5">1</span>-->
+    <span>{{status | changeStatus(status)}}</span>
+</div>
+
+</body>
+<script>
+
+    var vm = new Vue({
+        el:'.doc',
+        data:{
+            'message':"此页面加载时间为"+new Date(),
+            'datas':{
+                template:"<div>this is a test!</div>"
+            },
+            'num':0,
+            'num1':0,
+            'status': 1
+        },
+        /*components:{
+            'my-component':this.datas
+        },*/
+        filters:{
+            changeStatus:function (status) {
+                if(status == 1){
+                    return '正常';
+                }
+            }
+        }
+    });
+</script>
+</html>

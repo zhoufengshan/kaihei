@@ -1,0 +1,326 @@
+body,html{font-size: 14px;width:100%;height: 100%;}
+.header{
+	position: relative;z-index: 1;
+	min-width:1000px;width:100%;
+	height:60px;margin:0 auto;
+	background-color: #161e32;
+}
+.logo{
+	width:166px;height:60px;
+	background:url(../img/public/01_01.png)0px -50px no-repeat; 
+}
+.nav li{
+	float: left;
+}
+.nav li .sy_nav_visited{
+	background:url(../img/public/01_01.png)-159px 18px no-repeat;
+	border-bottom:2px solid #24e055;color:#fff;
+}
+.nav li a{
+	display: inline-block;
+	color:#babcbf;
+	padding:22px 26px;
+}
+.navse{
+	width:250px;height: 28px;
+	background-color: #232b3e;
+	border-radius: 14px;
+	margin-top:16px;
+	margin-left:5%;
+}
+.sy_search{
+	width: 200px;
+    height: 28px;
+    background-color: transparent;
+    padding-left: 20px;
+    border:none;color:#fff;
+    font-size: 14px;
+}
+.sy_submit{
+	display: inline-block;
+	width:18px;height:18px;margin-top: 5px;
+	background:url(../img/public/01_01.png)-238px -30px no-repeat; 
+}
+.togg{
+	width:14px;height: 14px;margin:23px 0px 23px 27px;
+}
+.sy-close{
+	background:url(../img/public/01_01.png)-304px -33px no-repeat; 
+}
+.sy-mid{
+	background:url(../img/public/01_01.png)-383px -33px no-repeat; 
+}
+.sy-min{
+	background:url(../img/public/01_01.png)-423px -33px no-repeat; 
+}
+/*===========================wrap==============================*/
+.wrap{
+	min-width:1000px;width:100%;
+	position: absolute;top:0;
+	background-color: #0a0b22;
+}
+.sy_right{
+	width:200px;margin-right: 10px;height:100%;margin-top: 70px;
+	min-height:650px;background-color: #161e32; /*背景灰色*/
+}
+.sy_left{
+	width:auto;min-height:650px;margin-right:200px;
+}
+.sy_left_con{
+	min-width:790px;width:80%;max-width:1000px;height:100%;min-height:650px;
+	margin:0 auto;background-color: rgb(10,10,34);
+}
+/*============================sy_right============================*/
+.playerInfo{
+	width:198px;
+	border:1px solid #22293c;
+	border-bottom:none;
+}
+.playerInfo_tit{
+	width:70px;height:70px;
+	border-radius: 50% 50%;
+	margin:10px 15px 7px 10px;
+}
+.playerInfo_tit img{
+	width:100%;height:100%;
+}
+.playerInfo_con p{
+	width:103px;overflow: hidden;margin-top:10px;
+}
+#name_{
+	color:#999ca5; /*字体灰色*/
+	font-size: 18px;line-height: 20px;
+}
+#grade_{
+	color:#21e553; /*青绿色*/
+	font-size: 12px;
+}
+#grade_icon_{
+	width:10px;height:12px;display: inline-block;
+	background:url(../img/public/01_01.png)-497px -26px no-repeat;
+}
+.icon_ span{display: inline-block;width:17px;height:17px;}
+#icon_1{
+	background:url(../img/public/01_01.png)-530px -24px no-repeat;
+}#icon_2{
+	background:url(../img/public/01_01.png)-572px -24px no-repeat;
+}#icon_3{
+	background:url(../img/public/01_01.png)-614px -24px no-repeat;
+}#icon_4{
+	background:url(../img/public/01_01.png)-655px -24px no-repeat;
+}
+#playerInfo_bdyx{
+	color:#21e553;padding:1px 7px;
+	margin:0px 0px 10px 12px;display: inline-block;
+	width:48px;border: 1px solid #21e553;
+}
+.recentGames_tit{
+	background-color: #242c3f;
+}
+.recentGames_titb{
+	color:#79cbff;
+	width:200px;height:44px;text-align: center; line-height: 44px;
+	background:url(../img/public/01_01.png)-485px -60px no-repeat; 
+}
+
+/*===================gameroom======================*/
+.room_head{
+	height:59px;
+	line-height: 60px;width:100%;
+	border-bottom:1px solid #22293c;
+}
+.room_head span{
+	display: inline-block;
+}
+#GroomId{
+	margin-left: 10px;
+	color:#999ca5;
+	font-size:14px;
+}
+#roomicony{
+	width:16px;height:16px;margin-left: 27px;
+	background:url(../img/public/room.png)0px 0px no-repeat; 
+}
+#roomiconx{
+	width:17px;height:16px;margin-left: 10px;
+	background:url(../img/public/room.png)-52px 0px no-repeat;
+}
+#galj1{
+	margin-left: 20px;
+	color:#999ca5; /*字体灰色*/
+	font-size: 14px;
+}
+.gane{
+	color:#999ca5; /*字体灰色*/
+}
+#galj2{
+	color:#21e553; /*青绿色*/
+	font-size: 14px;
+}
+.room-back{
+	width:14px;height:14px;
+	background:url(../img/public/01_01.png)-456px -33px no-repeat; 
+}
+
+.friend_tit span{
+	background-color: #242c3f;
+	display:inline-block;border-bottom:1px solid #242c3f;float: left;
+	width:66.6px;height:49px;text-align: center;line-height: 50px;color:#79cbff;
+}
+.friend_tit .friend_tith{
+	color:#21e553;
+	border-bottom:1px solid #21e553;
+	background-color: #0a0f27;
+}
+.friend_con{
+	width:198px;font-size:12px;
+	border-left: 1px solid #22293c;
+	border-right: 1px solid #22293c;
+}
+.friend_conli{
+	width:198px;height:420px;
+	overflow-y:scroll; 
+}
+.friend_hy_con{
+	width:100%;color:#999ca5;
+}
+.friend_hy_con1{
+	margin-top:20px;	
+}.friend_hy_con1_tit{
+	margin-left:10px;	
+}
+.xiaosj{
+	display: inline-block;
+	width:8px;height: 9px;
+	background:url(../img/public/01_01.png)-351px -142px no-repeat; 
+}
+.xiaosj1{
+	display: inline-block;
+	width:8px;height:9px;
+	background:url(../img/public/01_01.png)-350px -192px no-repeat; 
+}
+.friend_hylist{
+	margin-top: 10px;
+	display: none;
+}
+.friend_hylist_{padding:6px 0px;}
+/*鼠标点击时添加的类*/
+.friend_hylist_c{
+	background-color:#1c263f;
+	color:#fff;
+}
+/*不在线时添加的类，使好友头像变灰色*/
+.grayed{
+	-webkit-filter:grayscale();
+	filter:grayscale();
+}
+/*未读消息显示添加都ID*/
+#wdxx{
+	font-size: 10px;
+	width:18px;height:18px;text-align: center;line-height: 18px;
+	background-color: red;display: inline-block;
+	border-radius:50%;color:#fff;margin-left: 10px;
+	/*display: none;*/
+}
+#icon_sy{
+	display: inline-block;width:17px;height:17px;
+	background:url(../img/public/room.png)-52px 0px no-repeat;
+}
+.hylist_tx{
+	width:32px;height:32px;overflow: hidden;margin-right: 8px;margin-left: 20px;
+}
+.hylist_xtb{margin-top: 3px;}
+/*鼠标右键*/
+.hy_list_sbyj{
+	background-color: #161e32; /*背景灰色*/
+	position: absolute;padding:7px 0px;
+	border:1px solid #21e553; /*青绿色*/
+	display: none;/*top:0px;left: 0px;*/
+}
+.hy_list_sbyj li{
+	padding:7px 20px 7px 12px;
+}
+
+.games_invite{
+	width:100%;text-align: center;
+	padding:10px 0px;color:#21e553;
+	background-color:#1c263f; 
+}
+.czhy_qz{
+	margin-top: 20px;
+}
+.chhy_{
+	border: 1px solid #22293c;/*//边框*/
+	color:#999ca5;/*//字体颜色*/
+	text-align: center;
+	background-color: #1d253a;
+	width:97px;padding:9px 0px;
+}
+.chhy_hy{
+	display: inline-block;width:14px;height:14px;margin-right: 5px;
+	background:url(../img/public/01_01.png)-303px -140px no-repeat; 
+}
+.chhy_cjqz{
+	display: inline-block;width:16px;height:14px;margin-right: 5px;
+	background:url(../img/public/01_01.png)-302px -186px no-repeat; 
+}
+/*=====================================房间玩家。====================*/
+.room_center{
+	width: auto;
+	margin:0px 200px;
+}
+.center_con{
+	min-width:578px;width:70%;height:100% ;
+	min-height:443px;max-width:1000px;
+	margin:70px auto 0px;background-color: #161e32; /*背景灰色*/
+	border: 1px solid #22293c;
+}
+.room_name{
+	width: 95%;margin: 0 auto;
+}
+.roomname{
+	width:100px;height:16px;
+	background: url(../img/public/room.png)-52px 0px no-repeat;
+}
+/*=====================================聊天。====================*/
+.room_chat{
+	min-width:578px;width:70%;height:100% ;margin:10px auto 0px;
+	min-height:190px;max-width:1000px;border: 1px solid #22293c;
+	background-color: #161e32; /*背景灰色*/
+}
+.chat_window{
+	width:95%;margin:16px auto 18px;
+}
+.chat_win{
+	height:105px;overflow-y:scroll; 
+}
+.chat_form{
+	width:100%;margin:20px auto 0px;
+}
+.chat_foot{height:35px;}
+.chat_face{
+	width:32px;height:32px;
+	background:url(../img/public/room.png)-192px -40px no-repeat; 
+}
+.chat_ipt{
+	min-width:390px;width:71%;max-width:798px;
+	height:33px;margin-left:10px;
+	border: 1px solid #22293c;/*//边框*/
+	border-right: none;color:#fff;
+	background-color: #29324a;padding-left:20px;
+	border-radius: 5px 0px 0px 5px;
+}
+.chat_sub{
+	width:94px;height:35px;color:#fff;line-height: 35px;text-align: center;
+	background:url(../img/public/room.png)-191px -166px no-repeat;  
+}
+
+
+
+
+/*========================================roomleft================================*/
+.room_left{
+	width:200px;margin-left: 10px;height:100%;
+	min-height:650px;background-color: #161e32;
+	margin-top: 70px;
+}

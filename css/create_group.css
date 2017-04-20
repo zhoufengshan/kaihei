@@ -1,0 +1,226 @@
+.content{
+    height: 430px;
+    width: 630px;
+    margin: auto auto;
+    background-color: rgb(28,36,57);
+    /*background: url("../img/friend/backimg.png") no-repeat;*/
+}
+
+.content .cont_top{
+    height: 40px;
+    background-color: rgb(41,56,84);
+}
+
+.content .cont_top ul li{
+    list-style: none;
+    padding-left: 20px;
+    color: #21e553;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.content .cont{
+    height: 390px;
+    width: 630px;
+}
+
+.content .cont .cont_form{
+    width: 590px;
+    height: 390px;
+    margin: 0 auto;
+}
+
+.form_roomname{
+    width: 590px;
+    height: 70px;
+    padding-top: 20px;
+}
+
+.form_roomname .la{
+    width: 70px;
+    height: 50px;
+    float: left;
+}
+
+.form_roomname label{
+    line-height: 40px;
+    font-weight: inherit;
+    color: rgb(233,232,237);
+    text-align: justify;
+}
+
+
+.form_roomname .in{
+    float: left;
+    padding-top: 5px;
+    line-height: 30px;
+}
+
+.form_roomname div input{
+    border-radius: 3px;
+    box-shadow: 0 0 0 ;
+    background-color: rgb(41,56,84);
+    width: 520px;
+    border: 0;
+    text-indent: 10px;
+    color: rgb(167,177,186);
+}
+
+.in select{
+    width: 248px;
+    height: 30px;
+    background-color: rgb(41,56,84);
+    color: rgb(167,177,186);
+    border: 0;
+    border-radius: 3px;
+    text-indent: 10px;
+}
+
+
+.se_rigth{
+    margin-left: 20px;
+}
+
+.from_gg{
+    width: 590px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.from_gg .f_{
+    width: 70px;
+    height:90px;
+    float: left;
+}
+.from_gg .f_ label{
+    font-weight: inherit;
+    color: rgb(233,232,237);
+}
+
+.from_gg .form_tx{
+    height: 90px;
+    width: 520px;
+    float: left;
+}
+
+.from_gg .form_tx textarea{
+    background-color: rgb(41,56,84);
+    color: rgb(167,177,186);
+    height: 90px;
+    width: 520px;
+    border: 0;
+    border-radius: 3px;
+    text-indent: 10px;
+    padding: 5px 0;
+}
+
+.from_check{
+    height: 70px;
+    width: 590px;
+
+    padding-top: 20px;
+}
+.from_check .f_{
+    width: 70px;
+    height:50px;
+    float: left;
+}
+.from_check .f_ label{
+    font-weight: inherit;
+    color: rgb(233,232,237);
+    padding-top: 7px;
+}
+.form_ra label{
+    float: left;
+    margin-right: 20px;
+    color: rgb(167,177,186);
+}
+
+.form_ra div input span{
+    color: #21e553;
+    font-size: 14px;
+}
+
+.from_btn{
+    width: 590px;
+    height: 80px;
+}
+.tips{
+    height: 80px;
+    width: 350px;
+    float: left;
+}
+
+.tips span{
+    line-height: 80px;
+    color: rgb(97,103,119);
+    font-size: 12px;
+}
+.from_btn_{
+    height: 80px;
+    width: 240px;
+    float: left;
+}
+
+.btn_left{
+    height: 30px;
+    width: 80px;
+    /*margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;*/
+    margin: 25px;
+    border: 1px solid rgb(118,126,145);
+    float: left;
+}
+.btn_left input{
+    height: 26px;
+    width: 76px;
+    margin: 1px 1px;
+    border: 0;
+    background-color: rgb(70,86,112);
+    color: rgb(239,238,245);
+}
+
+.btn_right{
+    height: 30px;
+    width: 80px;
+    margin: 25px 0;
+    border: 1px solid rgb(118,126,145);
+    float: right;
+}
+.btn_right input{
+    height: 26px;
+    width: 76px;
+    margin: 1px 1px;
+    border: 0;
+    background-color: rgb(70,86,112);
+    color: rgb(239,238,245);
+}
+
+.btn_right:hover{
+    height: 30px;
+    width: 80px;
+    margin: 25px 0;
+    border: 1px solid #21e553;
+    float: right;
+}
+
+.btn_right input:hover{
+    height: 26px;
+    width: 76px;
+    margin: 1px 1px;
+    border: 0;
+    background-color: rgb(31,179,55);
+    color: #21e553;
+}
+
+.cont_top .nav{
+    float: left;
+}
+.close_{
+    width: 14px;
+    height: 14px;
+    float: right;
+    margin: 10px 13px;
+    cursor: pointer;
+}

@@ -1,0 +1,358 @@
+.content{
+    width: 740px;
+    height: 580px;
+    margin: 0 auto;
+    background-color: rgb(28,36,57);
+}
+
+.content .cont_top{
+    height: 40px;
+    width: inherit;
+    background-color: #0a0b22;
+}
+.content .cont_top .top_tit{
+    width: 300px;
+    height: 40px;
+    float: left;
+}
+.content .cont_top .top_tit span{
+    line-height: 40px;
+    font-size: 16px;
+    color: #21e553;
+    padding-left: 20px;
+}
+
+.content .cont_top .top_tab{
+    width: 200px;
+    height: 40px;
+    float: right;
+}
+
+.top_tab_min{
+
+}
+
+.content .cont{
+    height: 540px;
+    width: inherit;
+    /*background: url("../img/shouye/loginBg.png") no-repeat;*/
+}
+
+.cont .cont_userinfo{
+    height: 145px;
+    width: inherit;
+}
+
+.cont_userinfo .user_img{
+    height: 121px;
+    width: 121px;
+    float: left;
+    margin: 12px 12px;
+    border-radius: 90px;
+    overflow: hidden;
+}
+.cont_userinfo .user_img img{
+    height: 121px;
+    width: 121px;
+}
+
+.user_info_list{
+    height: 133px;
+    width: 385px;
+    float: left;
+    padding-top: 12px;
+}
+
+.user_info_list .user_info_nickname{
+    height: 30px;
+    width: 360px;
+    padding-left: 20px;
+    line-height: 30px;
+    padding-bottom: 5px;
+}
+
+.user_info_list .user_info_nickname .user_nickname{
+    font-size: 16px;
+    color: #ffffff;
+    padding-right: 20px;
+}
+
+.user_info_nickname .user_level{
+    border: 1px solid #21e553;
+    height: 20px;
+    width: 50px;
+    background-color: rgb(58,60,60);
+    padding: 3px 8px;
+    color: #21e553;
+}
+
+.user_info_nickname .rocket{
+    height: 20px;
+    margin-top: 3px;
+    width: 20px;
+}
+
+.user_id{
+    padding-left: 20px;
+    height: 20px;
+    width: 360px;
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+.user_id span{
+    font-size: 14px;
+    color: rgb(108,112,123);
+}
+.user_times{
+    height: 20px;
+    width: 360px;
+    padding-left: 20px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+.icon1{
+    height: 20px;
+    width: 20px;
+    background: url("../img/public/01_01.png") -534px -25px no-repeat;
+    /*margin-right: 10px;*/
+    margin-right: 5px;
+    float: left;
+}
+
+.icon2{
+    height: 20px;
+    width: 20px;
+    background: url("../img/public/01_01.png") -572px -25px no-repeat;
+    float: left;
+    margin-right: 5px;
+}
+
+.icon3{
+    height: 20px;
+    width: 20px;
+    background: url("../img/public/01_01.png") -614px -25px no-repeat;
+    float: left;
+    margin-right: 5px;
+}
+.icon4{
+    height: 20px;
+    width: 20px;
+    background: url("../img/public/01_01.png") -656px -25px no-repeat;
+    float: left;
+    margin-right: 5px;
+}
+
+.user_times .user_zan{
+    height: 20px;
+    width: 105px;
+    border: 1px solid rgb(51,53,63);
+    float: left;
+    border-radius: 10px;
+    line-height: 20px;
+    margin-right: 20px;
+}
+
+.zan_img{
+    height: 14px;
+    width: 105px;
+    background: url("../img/shouye/hert.png") no-repeat;
+    margin-top: 5px;
+    margin-left: 5px;
+    line-height: 10px;
+}
+.zan_img .a{
+    padding-left: 20px;
+    float: left;
+    font-size: 14px;
+    color: #21e553;
+}
+
+.zan_img .b{
+    margin-left: 5px;
+    float: left;
+    color: rgb(108,112,123);
+}
+.zan_imgs{
+    height: 10px;
+    width: 105px;
+    background: url("../img/shouye/game_icon.png") no-repeat;
+    margin-top: 5px;
+    margin-left: 5px;
+    line-height: 10px;
+}
+.zan_imgs .a{
+    padding-left: 20px;
+    float: left;
+    font-size: 14px;
+    color: #21e553;
+}
+
+.zan_imgs .b{
+    margin-left: 5px;
+    float: left;
+    color: rgb(108,112,123);
+}
+
+.user_desc{
+    height: 30px;
+    width: 400px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.user_desc span{
+    color: rgb(108,112,123);
+    font-size: 14px;
+}
+
+
+.add_friend{
+    height: 145px;
+    width: 155px;
+    float: left;
+}
+
+.yq_friend{
+    height: 38px;
+    width: 158px;
+    float: left;
+    margin-top: 25px;
+    margin-right: 40px;
+    border: 1px solid #21e553;
+    line-height: 38px;
+    padding-left: 10px;
+    background-color: rgb(16,40,40);
+}
+
+.yq_friend span{
+    height: 38px;
+    width: 150px;
+    font-size: 16px;
+    padding-left: 20px;
+    cursor: pointer;
+    color: #21e553;
+}
+
+
+.add_friend_room{
+    height: 38px;
+    width: 158px;
+    float: left;
+    margin-top: 20px;
+    line-height: 38px;
+    margin-right: 40px;
+    border: 1px solid rgb(255,162,0);
+    padding-left: 10px;
+    background-color: rgb(28,12,14);
+}
+.add_friend_room span{
+     height: 38px;
+     width: 150px;
+     font-size: 16px;
+     padding-left: 20px;
+     cursor: pointer;
+    color: rgb(255,162,0);
+ }
+
+.cont_tab{
+    height: 45px;
+    width: inherit;
+    background-color: rgb(24,30,50);
+    margin: 3px 0;
+}
+
+.cont_tab ul li{
+    list-style: none;
+    float: left;
+}
+
+.tab_list{
+    height: 45px;
+    width: 135px;
+    text-align: center;
+
+}
+
+.cont_tab li:hover, .cont_tab li .on{
+    color:#21e553;
+    cursor: pointer;
+}
+
+.tab_list span{
+    line-height: 45px;
+    font-size: 16px;
+    color: rgb(108,112,123);
+}
+.shuxian{
+    width: 1px;
+    height: 20px;
+    margin-top: 12px;
+    color: #ffffff;
+    float: left;
+    border: 1px solid #ffffff;
+}
+
+.cont_user_info_{
+    width: 684px;
+    height: 264px;
+    padding: 40px 28px;
+}
+
+.ui1{
+    width: 325px;
+    height: 40px;
+    float: left;
+    margin-right: 17px;
+    margin-bottom: 20px;
+}
+
+.nnn{
+    width: 100px;
+    height: 40px;
+    margin-right: 3px;
+    float: left;
+    text-align: right;
+    background-color: rgb(33,40,60);
+}
+.nnn span{
+    padding-right: 10px;
+    line-height: 40px;
+    font-size: 16px;
+    color: rgb(108,112,123);
+}
+
+.vvv{
+    width:222px;
+    height: 40px;
+    float: left;
+    text-align: left;
+    background-color: rgb(33,40,60);
+}
+.vvv span{
+    padding-right: 10px;
+    line-height: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+    color: rgb(233,234,235);
+}
+
+.qianming{
+    height: 40px;
+    width: 100%;
+    float: left;
+}
+
+.sss{
+    width: 562px;
+    height: 40px;
+    float: left;
+    background-color: rgb(33,40,60);
+}
+
+.sss span{
+    padding-right: 10px;
+    line-height: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+    color: rgb(233,234,235);
+}

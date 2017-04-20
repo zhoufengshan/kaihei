@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="./css/clear.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bind_game01.css">
+    <script src="./js/jquery.1.9.1.min.js"></script>
+    <title>绑定游戏</title>
+</head>
+<body>
+<div class="content">
+    <div class="cont_top">
+        <div class="top_tit">
+            <span>绑定游戏</span>
+        </div>
+        <div class="close_">
+            <img src="img/public/close.png">
+        </div>
+    </div>
+    <div class="cont">
+        <div class="cont_img">
+            <img src="img/shouye/02.png">
+        </div>
+        <div class="cont_game_add">
+            <div class="cont_game_left">
+                <div class="cont_game_tab">
+                    <div class="tab_top">
+                        <span>自动添加</span>
+                    </div>
+                    <div class="tab_bottom">
+                        <span>手动添加</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cont_game_right">
+                <div class="manual_add">
+                    <form>
+                        <div class="add_daqu">
+                            <select disabled>
+                                <option>——请选择大区——</option>
+                            </select>
+                        </div>
+                        <div class="add_daqu">
+                            <select disabled>
+                                <option>——请选择服务器——</option>
+                            </select>
+                        </div>
+                        <div class="add_daqu">
+                            <input type="text" class="add_nickname" placeholder="请填写游戏昵称或ID">
+                        </div>
+                        <div class="add_verify">
+                            <div class="sr_verify">
+                                <input type="text" placeholder="请输入验证码">
+                            </div>
+                            <div class="verify_img">
+                                <img  src="img/shouye/verify.png">
+                            </div>
+                            <div class="verify_refresh">
+                                <img  src="">
+                            </div>
+                        </div>
+                        <div class="cont_sub_">
+                            <span>
+                                确认添加
+                            </span>
+                        </div>
+                        <div class="add_tips_">
+                            <span class="">
+                                * 手动添加游戏资料可能会有一定的延迟，您可进行一次游戏来确保资料正确
+                            </span>
+                        </div>
+                    </form>
+                </div>
+                <div class="automatic_add" style="display: none">
+                    <form>
+                        <div class="add_daqu">
+                            <input type="text" class="add_nickname" placeholder="请输入游戏账号">
+                        </div>
+                        <div class="add_daqu">
+                            <input type="password" class="add_nickname" placeholder="请输入密码">
+                        </div>
+                        <div class="add_verify">
+                            <div class="sr_verify">
+                                <input type="text" placeholder="请输入验证码">
+                            </div>
+                            <div class="verify_img">
+                                <img  src="img/shouye/verify.png">
+                            </div>
+                            <div class="verify_refresh">
+                            </div>
+                        </div>
+                        <div class="add_tips">
+                            <span class="">
+                                *当前账号密码仅供获取角色信息使用
+                            </span>
+                        </div>
+                        <div class="cont_sub_">
+                            <span>
+                                下一步
+                            </span>
+                        </div>
+                        <div class="add_tips_">
+                            <span class="">
+                                *自动添加会准确获取你所有大区的游戏资料，您可按照自己的意愿选择添加
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="add_daqu_selectdaqu">
+
+    </div>-->
+</div>
+</body>
+<script>
+    $(function () {
+        $(".tab_top").click(function () {
+            $(".automatic_add").css({'display':'block'});
+            $(".manual_add").css({'display':'none'});
+        });
+        $(".tab_bottom").click(function () {
+            $(".manual_add").css({'display':'block'});
+            $(".automatic_add").css({'display':'none'});
+        });
+    })
+</script>
+</html>

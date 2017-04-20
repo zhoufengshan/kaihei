@@ -1,0 +1,292 @@
+.content{
+    height: 620px;
+    width: 850px;
+    margin: 0 auto;
+    background-color: rgb(28,36,57);
+}
+
+.content .cont_top{
+    height: 45px;
+    width: 850px;
+    background-color: rgb(41,56,84);
+}
+
+.content .cont_top .top_tit{
+    width: 300px;
+    height: 45px;
+    float: left;
+}
+.content .cont_top .top_tit span{
+    line-height: 45px;
+    font-size: 16px;
+    color: #21e553;
+    padding-left: 20px;
+}
+.close_{
+    width: 14px;
+    height: 14px;
+    float: right;
+    margin: 13px 13px;
+    cursor: pointer;
+}
+
+.cont{
+    height: 575px;
+    width: 850px;
+    margin: 0 auto;
+}
+
+.cont_img{
+    height: 110px;
+    width: 730px;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.cont .cont_table_list{
+    height: 330px;
+    width: 725px;
+    margin:0 auto;
+    background-color: #ffffff;
+    border: 1px solid rgb(37,61,97);
+}
+
+.cont_table_list .table_top{
+    height: 45px;
+    width: 725px;
+    background-color: rgb(38,61,94);
+}
+
+.table_top .daqu{
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    float: left;
+}
+
+.daqu span{
+    font-size: 16px;
+    color: rgb(89,228,255);
+    line-height: 45px;
+}
+
+.table_top .server_name{
+    height: 45px;
+    width: 100px;
+    text-align: center;
+    float: left;
+}
+
+.server_name span{
+    font-size: 16px;
+    color: rgb(89,228,255);
+    line-height: 45px;
+}
+
+.table_top .nickname{
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    float: left;
+}
+
+.nickname span{
+    font-size: 16px;
+    color: rgb(89,228,255);
+    line-height: 45px;
+}
+.table_top .level{
+    height: 45px;
+    width: 250px;
+    text-align: center;
+    float: left;
+}
+
+.table_top .level span{
+    font-size: 16px;
+    color: rgb(89,228,255);
+    line-height: 45px;
+}
+.table_top .change{
+    height: 45px;
+    width: 55px;
+    text-align: center;
+    float: left;
+}
+
+.change span{
+    font-size: 16px;
+    color: rgb(89,228,255);
+    line-height: 45px;
+}
+.table_list{
+    height: 48px;
+    width: 725px;
+    background-color: rgb(23,29,51);
+}
+
+/***********************/
+.table_list .daqu{
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    float: left;
+}
+
+.table_list .daqu span{
+    font-size: 16px;
+    color: rgb(89,228,255);
+    line-height: 45px;
+}
+
+.table_list .server_name{
+    height: 45px;
+    width: 100px;
+    text-align: center;
+    float: left;
+}
+
+.table_list .server_name span{
+    font-size: 16px;
+    color: #21e553;
+    line-height: 45px;
+}
+
+.table_list .nickname{
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    float: left;
+}
+
+.table_list .nickname span{
+    font-size: 16px;
+    color: red;
+    line-height: 45px;
+}
+.table_list .level{
+    height: 45px;
+    width: 250px;
+    text-align: center;
+    float: left;
+}
+
+.table_list .level .gd{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 45px;
+}
+.table_list .change{
+    height: 45px;
+    width: 55px;
+    text-align: center;
+    float: left;
+}
+
+.table_list .change span{
+    font-size: 16px;
+    color: rgb(89,228,255);
+    line-height: 45px;
+}
+
+.table_list1{
+    height: 48px;
+    width: 725px;
+    background-color: rgb(35,44,68);
+}
+
+.table_list1 .daqu{
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    float: left;
+}
+
+.table_list1 .daqu span{
+    font-size: 16px;
+    color: rgb(89,228,255);
+    line-height: 45px;
+}
+
+.table_list1 .server_name{
+    height: 45px;
+    width: 100px;
+    text-align: center;
+    float: left;
+}
+
+.table_list1 .server_name span{
+    font-size: 16px;
+    color: #21e553;
+    line-height: 45px;
+}
+
+.table_list1 .nickname{
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    float: left;
+}
+
+.table_list1 .nickname span{
+    font-size: 16px;
+    color: red;
+    line-height: 45px;
+}
+.table_list1 .level{
+    height: 45px;
+    width: 250px;
+    text-align: center;
+    float: left;
+}
+
+.table_list1 .level .gd{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 45px;
+}
+.table_list1 .change{
+    height: 45px;
+    width: 55px;
+    text-align: center;
+    float: left;
+}
+
+.table_list1 .change span{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 45px;
+}
+
+.cont_sub{
+    height: 50px;
+    width: 350px;
+    margin: 30px auto;
+    background: url("../img/public/02.png") 0 -263px no-repeat;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cont_sub:hover{
+    height: 50px;
+    width: 350px;
+    margin: 30px auto;
+    background: url("../img/public/02.png") 0 -205px no-repeat;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cont_sub span{
+    line-height: 50px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.table_list1:hover{
+    border: 1px solid #21e553;
+}
+.level .grade{
+    color: #21e553;
+}
+.table_list:hover{
+    border: 1px solid #21e553;
+}

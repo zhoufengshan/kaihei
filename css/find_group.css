@@ -1,0 +1,363 @@
+.content{
+    height: 480px;
+    width: 640px;
+    margin: 0 auto;
+    background: rgb(28,41,65);
+    border: 1px solid rgb(64,79,104);
+}
+
+.content .cont_top{
+    height: 30px;
+    width: 640px;
+    background-color: rgb(41,56,84);
+}
+.find{
+    height: 30px;
+    width: 100px;
+    float: left;
+    padding-left: 10px;
+}
+
+.find span{
+    line-height: 30px;
+    font-size: 14px;
+    color: #21e553;
+}
+
+.cont_tab{
+    width: 190px;
+    height: 45px;
+    margin: 0 auto
+}
+.cont_tab ul li{
+    list-style: none;
+    float: left;
+}
+.cont_tab .find_friend{
+    width: 95px;
+    height: 45px;
+    text-align: center;
+}
+
+.cont_tab .find_friend span{
+    color: rgb(119,130,147);
+    line-height: 45px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cont_tab .find_friend span:hover, .cont_tab .find_friend .on{
+    color: #21e553;
+    line-height: 45px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*
+.find_friend .on{
+    color: #21e553;
+    line-height: 45px;
+    font-size: 16px;
+    cursor: pointer;
+}*/
+
+.search_btn{
+    height: 35px;
+    width: 505px;
+    margin: 10px auto;
+}
+
+.search_btn .search_{
+    height: 33px;
+    width: 393px;
+    float: left;
+    border: 1px solid rgb(75,87,109);
+}
+.search_btn .search_ input{
+    height: 33px;
+    width: 393px;
+    text-indent: 30px;
+    border: 0;
+    font-size: 14px;
+    color: rgb(106,116,136);
+    background-color: rgb(41,56,85);
+}
+.search_btn .search_ span{
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    margin-left: 5px;
+    position: absolute;
+    background: url(../img/public/01_01.png) -238px -30px no-repeat;
+}
+
+.search_an{
+    width: 110px;
+    height: 35px;
+    float: left;
+    background: url("../img/friend/search_btn.png") no-repeat;
+    text-align: center;
+    cursor: pointer;
+}
+
+.search_an span{
+    line-height: 35px;
+    font-size: 16px;
+    color: rgb(233,247,235);
+    letter-spacing:5px;
+}
+
+/*hr{
+    margin-top: 30px;
+    border-top: 1px solid rgb(64,79,104);
+}*/
+
+.cont_bottom{
+    width: inherit;
+    height: 328px;
+    margin-top: 30px;
+    border-top: 1px solid rgb(64,79,104);
+}
+.go_back{
+    height: 32px;
+    width: inherit;
+}
+
+.go_back .back_{
+    height: 12px;
+    width: 100px;
+    float: left;
+    padding: 10px 10px;
+}
+
+.go_back .back_ span{
+    color: rgb(164,168,177);
+    line-height: 12px;
+}
+
+.go_back .batch{
+    height: 12px;
+    width: 100px;
+    float: right;
+    padding: 10px 10px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.go_back .batch span{
+    color: #21e553;
+    line-height: 12px;
+}
+
+.cont_bottom .search_friend{
+    height: 246px;
+    width: 590px;
+    padding: 25px 25px;
+}
+
+.search_friend ul li{
+    list-style: none;
+    float: left;
+}
+
+.add_friend_{
+    width: 180px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.friend_img{
+    height: 58px;
+    width: 58px;
+    border: 1px solid rgb(51,59,79);
+    float: left;
+}
+
+.friend_img img{
+    height: 58px;
+    width: 58px;
+}
+
+.add_friend_info{
+    width: 100px;
+    height: 60px;
+    float: left;
+}
+
+.add_friend_info .nickname{
+    height: 30px;
+    width: 86px;
+    margin-left: 14px;
+}
+
+.nickname img{
+    margin-left: 8px;
+}
+
+.add_friend_info .nickname span{
+    color: rgb(166,173,158);
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.add_friend_info .add_btn{
+    height: 20px;
+    width: 83px;
+    margin-left: 14px;
+    margin-top: 8px;
+    border: 1px solid rgb(77,89,113);
+}
+.add_friend_info .add_btn .add_img{
+    width: 83px;
+    height: 12px;
+    margin: 3px 8px;
+}
+
+.add_friend_info .add_btn .add_img span{
+    padding-left: 8px;
+    color: rgb(106,116,136);
+    font-size: 12px;
+}
+
+
+/**/
+.go_back_{
+    height: 32px;
+    width: inherit;
+}
+
+.go_back_ .back__{
+    height: 12px;
+    width: 100px;
+    float: left;
+    padding: 10px 10px;
+}
+
+.go_back_ .back__ span{
+    color: #21e553;
+    line-height: 12px;
+}
+
+.go_back_ .batch_{
+    height: 12px;
+    width: 100px;
+    float: right;
+    padding: 10px 10px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.go_back_ .batch_ .a{
+    color: rgb(165,168,176);
+    line-height: 12px;
+}
+.go_back_ .batch_ .b{
+    color: rgb(241,131,12);
+    line-height: 12px;
+}
+.search_group{
+    height: 246px;
+    width: 600px;
+    margin: 20px;
+}
+.search_group ul li{
+    list-style: none;
+    float: left;
+}
+.group_{
+    height: 60px;
+    width:280px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+.group_ .group_img{
+    width: 58px;
+    height: 58px;
+    border: 1px solid rgb(51,59,79);
+    float: left;
+}
+
+.group_ .group_img img{
+    width: 58px;
+    height: 58px;
+}
+
+.group_info{
+    width: 145px;
+    height: 60px;
+    float: left;
+}
+
+
+.group_info .group_name{
+    height: 20px;
+    width: 100px;
+    margin-left: 10px;
+}
+.group_info .group_name span{
+    font-size: 14px;
+    color: rgb(166,171,182);
+}
+
+.group_peop_count{
+    height: 20px;
+    width: 100px;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+.group_peop_count span{
+    color: rgb(99,109,127);
+    padding-left: 7px;
+    line-height: 20px;
+}
+
+.group_info .group_tips{
+    height: 20px;
+    width: 100px;
+    margin-left: 10px;
+}
+.group_info .group_tips span{
+    font-size: 12px;
+    color: rgb(99,109,127);
+}
+
+/*
+.add_group{
+    height: 18px;
+    width: 53px;
+    float: left;
+    background-color: rgb(41,56,84);
+    border: 1px solid rgb(77,85,107);
+    !*background: url("../img/friend/add.png") no-repeat;*!
+}
+
+.add_group  img{
+    margin: 3px 5px;
+}
+
+.add_group span{
+    font-size: 12px;
+    line-height: 12px;
+    color: #ffffff;
+}*/
+.add_btn{
+    height: 20px;
+    width: 53px;
+    margin-left: 14px;
+    margin-top: 8px;
+    border: 1px solid rgb(77,89,113);
+    float: left;
+    cursor: pointer;
+}
+.add_btn .add_img{
+    width: 83px;
+    height: 12px;
+    margin: 3px 8px;
+}
+
+.add_btn .add_img span{
+    padding-left: 5px;
+    color: rgb(106,116,136);
+    font-size: 12px;
+}

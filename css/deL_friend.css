@@ -1,0 +1,123 @@
+.content{
+    width: 360px;
+    height: 220px;
+    margin: 0 auto;
+    background: rgb(28,41,65);
+}
+
+.content .cont_top{
+    height: 30px;
+    width: 360px;
+    background-color: rgb(41,56,84);
+}
+
+.enter_room_title{
+    height: 30px;
+    width: 100px;
+    float: left;
+    padding-left: 10px;
+}
+
+.enter_room_title span{
+    line-height: 30px;
+    font-size: 14px;
+    color: #21e553;
+}
+
+.cont{
+    height: 190px;
+    width:360px;
+
+}
+
+.cont .tips{
+    height: 40px;
+    padding-top: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+.cont .tips span{
+    font-size: 12px;
+    color: rgb(165,172,183);
+
+}
+
+.friend{
+    height: 50px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: rgb(22,30,50);
+    margin-top: 10px;
+}
+
+.friend .friend_img{
+    height: 31px;
+    width: 31px;
+    padding: 8px 10px;
+    float: left;
+}
+
+.friend_img img{
+    height: 31px;
+    width: 31px;
+}
+
+.friend_info{
+    float: left;
+    height: 31px;
+    width: 249px;
+    padding:8px 0;
+}
+
+.friend_info .nickname{
+    height: 16px;
+    width: inherit;
+}
+.nickname .nickname_{
+     font-size: 14px;
+     color: rgb(165,172,183);
+     line-height: 16px;
+ }
+
+.nickname .user_id{
+    font-size: 12px;
+    color: rgb(92,98,112);
+    line-height: 16px;
+}
+
+.cont .qrkuang{
+    height:30px;
+    width: 180px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+.qrkuang .qx{
+    height: 30px;
+    width: 85px;
+    float: left;
+    background: url("../img/public/room.png") 0 -266px no-repeat;
+    text-align: center;
+    line-height: 28px;
+}
+
+.qrkuang .qx span{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.qrkuang .qr{
+    height: 30px;
+    width: 85px;
+    float: left;
+    margin-left: 10px;
+    background: url("../img/public/room.png") 0 -303px no-repeat;
+    text-align: center;
+    line-height: 28px;
+}
+
+.qrkuang .qr span{
+    font-size: 14px;
+    color: #ffffff;
+}

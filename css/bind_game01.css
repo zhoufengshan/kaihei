@@ -1,0 +1,272 @@
+.content{
+    height: 620px;
+    width: 850px;
+    margin: 0 auto;
+    background-color: rgb(28,36,57);
+}
+
+.content .cont_top{
+    height: 45px;
+    width: 850px;
+    background-color: rgb(41,56,84);
+}
+
+.content .cont_top .top_tit{
+    width: 300px;
+    height: 45px;
+    float: left;
+}
+.content .cont_top .top_tit span{
+    line-height: 45px;
+    font-size: 16px;
+    color: #21e553;
+    padding-left: 20px;
+}
+.close_{
+    width: 14px;
+    height: 14px;
+    float: right;
+    margin: 13px 13px;
+    cursor: pointer;
+}
+
+.cont{
+    height: 575px;
+    width: 850px;
+    margin: 0 auto;
+}
+
+.cont_img{
+    height: 80px;
+    width: 730px;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.cont_game_add{
+    height:465px;
+    width: 650px;
+    margin: 0 auto;
+    /*background-color: red;*/
+}
+
+.cont_game_left{
+    width:120px;
+    height: 465px;
+    float: left;
+}
+.cont_game_left .cont_game_tab{
+    height: 270px;
+    width: 40px;
+    margin: 20px 40px;
+}
+.cont_game_tab .tab_top{
+    height: 133px;
+    width: 38px;
+    border: 1px solid rgb(148,153,165);
+    text-align: center;
+}
+.cont_game_tab .tab_bottom{
+    height: 133px;
+    width: 38px;
+    border: 1px solid rgb(148,153,165);
+    text-align: center;
+}
+.cont_game_tab .tab_top span{
+    color: rgb(148,153,165);
+    font-size: 18px;
+    line-height: 38px;
+    writing-mode:tb-rl;
+    padding: 30px 0;
+    cursor: pointer;
+}
+.cont_game_tab .tab_top:hover{
+    height: 133px;
+    width: 38px;
+    border: 1px solid #21e553;
+    text-align: center;
+}
+.cont_game_tab .tab_top span:hover{
+    color: #21e553;
+    font-size: 18px;
+    line-height: 38px;
+    writing-mode:tb-rl;
+    padding: 30px 0;
+    cursor: pointer;
+    background-color: rgb(28,60,60);
+
+}
+
+.cont_game_tab .tab_bottom:hover{
+    height: 133px;
+    width: 38px;
+    border: 1px solid #21e553;
+    text-align: center;
+}
+.cont_game_tab .tab_bottom span:hover{
+    color: #21e553;
+    font-size: 18px;
+    line-height: 38px;
+    writing-mode:tb-rl;
+    padding: 30px 0;
+    cursor: pointer;
+    background-color: rgb(28,60,60);
+
+}
+
+.cont_game_tab .tab_bottom span{
+    color: rgb(148,153,165);
+    font-size: 18px;
+    line-height: 38px;
+    padding: 30px 0;
+    writing-mode:tb-rl;
+    cursor: pointer;
+}
+.cont_game_right{
+    width: 530px;
+    float: left;
+    height: 465px;
+}
+.cont_game_right .manual_add{
+    width: 490px;
+    height: 425px;
+    padding: 20px 20px;
+}
+.cont_game_right .automatic_add{
+    width: 530px;
+    height: 465px;
+    padding: 20px 20px;
+}
+
+.add_daqu{
+    height: 45px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.add_daqu select{
+    height: 45px;
+    width: 350px;
+    background-color: rgb(41,56,84);
+    color: rgb(167,177,186);
+    border: 0;
+    text-indent: 30px;
+    font-size: 16px;
+}
+.add_daqu .add_nickname{
+    height: 45px;
+    width: 350px;
+    background-color: rgb(41,56,84);
+    color: rgb(167,177,186);
+    border: 0;
+    text-indent: 30px;
+    font-size: 16px;
+}
+.add_verify{
+    height: 45px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.add_verify .sr_verify{
+    height: 45px;
+    width: 160px;
+    float: left;
+}
+.add_verify .sr_verify input{
+    height: 45px;
+    width: 160px;
+    background-color: rgb(41,56,84);
+    color: rgb(167,177,186);
+    border: 0;
+    text-indent: 30px;
+    font-size: 16px;
+}
+.verify_img{
+    height: 45px;
+    width: 130px;
+    float: left;
+}
+.verify_img img{
+    height: 45px;
+    width: 120px;
+    margin-left: 10px;
+}
+.verify_refresh{
+    height: 45px;
+    width: 50px;
+    float: left;
+    margin-left: 10px;
+}
+.verify_refresh img{
+    height: 45px;
+    width: 50px;
+}
+
+/**/
+.cont_sub_{
+    height: 50px;
+    width: 350px;
+    cursor: pointer;
+    background: url("../img/public/02.png") 0 -263px no-repeat;
+    text-align: center;
+}
+
+.cont_sub_:hover{
+    height: 50px;
+    width: 350px;
+    cursor: pointer;
+    background: url("../img/public/02.png") 0 -205px no-repeat;
+    text-align: center;
+}
+
+.cont_sub_ span{
+    line-height: 50px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.cont_sub_ .sub_{
+    border: 1px solid #21e553;
+    height: 70px;
+    width: 352px;
+}
+
+.cont_sub_ .sub_ .ss{
+    height: 68px;
+    width: 350px;
+    background-color: #21e553;
+    margin: 1px auto;
+    text-align: center;
+}
+.cont_sub_ .sub_ .ss span{
+    font-size: 32px;
+    line-height: 68px;
+    color: #ffffff;
+}
+
+.add_tips{
+    height: 45px;
+    width: 350px;
+}
+
+.add_tips span{
+    color: rgb(77,124,164);
+}
+
+.add_tips_{
+    height: 45px;
+    width: 350px;
+    padding-top: 15px;
+}
+
+.add_tips_ span{
+    color: rgb(77,124,164);
+}
+.add_daqu_selectdaqu{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    float: right;
+}

@@ -1,0 +1,86 @@
+.content{
+    height: 160px;
+    width: 360px;
+    margin: 0 auto;
+    background: rgb(28,41,65);
+}
+
+.content .cont_top{
+    height: 30px;
+    width: 360px;
+    background-color: rgb(41,56,84);
+}
+
+.enter_room_title{
+    height: 30px;
+    width: 100px;
+    float: left;
+    padding-left: 10px;
+}
+
+.enter_room_title span{
+    line-height: 30px;
+    font-size: 14px;
+    color: #21e553;
+}
+
+.cont{
+    height: 130px;
+    width: 360px;
+
+}
+
+.cont .confirm_enter{
+    height: 60px;
+    width: 360px;
+    text-align: center;
+}
+
+.confirm_enter .a{
+    color: rgb(150,158,171);
+    font-size: 14px;
+    line-height: 60px;
+}
+
+.confirm_enter .b{
+    color: #21e553;
+    font-size: 14px;
+    line-height: 60px;
+}
+
+.cont .qrkuang{
+    height:30px;
+    width: 180px;
+    margin: 0 auto;
+    padding-top: 10px;
+
+}
+
+.qrkuang .qx{
+    height: 30px;
+    width: 85px;
+    float: left;
+    background: url("../img/public/room.png") 0 -266px no-repeat;
+    text-align: center;
+    line-height: 28px;
+}
+
+.qrkuang .qx span{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.qrkuang .qr{
+    height: 30px;
+    width: 85px;
+    float: left;
+    margin-left: 10px;
+    background: url("../img/public/room.png") 0 -303px no-repeat;
+    text-align: center;
+    line-height: 28px;
+}
+
+.qrkuang .qr span{
+    font-size: 14px;
+    color: #ffffff;
+}

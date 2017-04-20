@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="./css/clear.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/create_group.css">
+    <script src="./js/jquery.1.9.1.min.js"></script>
+    <title>创建群</title>
+</head>
+<body>
+<div class="content">
+    <div class="cont_top">
+        <div class="nav">
+            <ul>
+                <li>创建群组</li>
+            </ul>
+        </div>
+        <div class="close_">
+            <img src="img/public/close.png">
+        </div>
+    </div>
+    <div class="cont">
+        <form class="form-horizontal">
+        <div class="cont_form">
+            <div class="form_roomname">
+                <div class="f_">
+                    <div class="la">
+                        <label class="">房间名称：</label>
+                    </div>
+                    <div class="in">
+                        <input type="text" class="" placeholder="为你们的群取个给力的名字吧！">
+                    </div>
+                </div>
+            </div>
+            <div class="form_roomname">
+                <div class="f_">
+                    <div class="la">
+                        <label class="">群组：</label>
+                    </div>
+                    <div class="in">
+                        <select>
+                            <option>选择分类</option>
+                        </select>
+                        <select class="se_rigth">
+                            <option>选择游戏</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="from_gg">
+                <div class="f_">
+                    <label>公告：</label>
+                </div>
+                <div class="form_tx">
+                    <textarea placeholder="无神论者爱因斯坦"></textarea>
+                </div>
+            </div>
+            <div class="from_check">
+                <div class="f_">
+                    <label>身份验证：</label>
+                </div>
+                <div class="form_ra">
+                    <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked> 允许任何人
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">  需要身份验证
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 不允许任何人
+                    </label>
+                </div>
+            </div>
+            <div class="from_btn">
+                <div class="tips">
+                    <span>当前群人数上限为500人（认证成为老司机可升级群人数上限）</span>
+                </div>
+                <div class="from_btn_">
+                    <div class="btn_left">
+                        <input type="button" value="取消">
+                    </div>
+                    <div class="btn_right">
+                        <input type="button" value="下一步">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
+</body>
+<script>
+    $(function () {
+        $(".close_").click(function () {
+            $(".content").css({'display':'none'});
+        });
+        $(".btn_left input").click(function () {
+            $(".content").css({'display':'none'});
+        })
+    })
+</script>
+</html>

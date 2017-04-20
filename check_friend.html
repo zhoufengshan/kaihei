@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="./css/clear.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/check_friend.css">
+    <script src="./js/jquery.1.9.1.min.js"></script>
+    <title>查看好友</title>
+</head>
+<body>
+<div class="content">
+    <div class="cont_top">
+        <div class="top_tit">
+            <span>查看好友</span>
+        </div>
+        <div class="top_tab">
+            <div class="top_tab_min">
+
+            </div>
+            <div class="top_tab_close">
+
+            </div>
+        </div>
+    </div>
+    <div class="cont">
+        <div class="cont_userinfo">
+            <div class="user_img">
+                <img src="img/shouye/user_img.png">
+            </div>
+            <div class="user_info_list">
+                <div class="user_info_nickname">
+                    <span class="user_nickname">王铁锤怪叔叔</span>
+                    <span class="user_level">LV 32</span>
+                    <span class="rocket"><img src="img/shouye/rocket.png"></span>
+                </div>
+                <div class="user_id">
+                    <span>ID:1234568789</span>
+                </div>
+                <div class="user_times">
+                    <div class="icon1"></div>
+                    <div class="icon2"></div>
+                    <div class="icon3"></div>
+                    <div class="icon4"></div>
+                    <div class="user_zan">
+                        <div class="zan_img">
+                            <span class="a">895545 </span><span class="b">次</span>
+                        </div>
+                    </div>
+                    <div class="user_zan">
+                        <div class="zan_imgs">
+                            <span class="a">895545 </span><span class="b">次</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="user_desc">
+                    <span>写一句话介绍你自己 吧</span>
+                </div>
+            </div>
+            <div class="add_friend">
+                <div class="yq_friend">
+                    <img src="./img/shouye/add_friend.png"><span>邀请好友加入</span>
+                </div>
+                <div class="add_friend_room">
+                    <img src="./img/shouye/enter.png"><span>进入好友房间</span>
+                </div>
+            </div>
+        </div>
+        <div class="cont_tab">
+            <ul>
+                <li>
+                    <div class="tab_list">
+                        <span class="on">个人资料</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="tab_list">
+                        <span>游戏资料</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="tab_list">
+                        <span>游戏截图</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="cont_user_info_">
+            <div class="ui1">
+                <div class="nnn">
+                    <span>昵称：</span>
+                </div>
+                <div class="vvv">
+                    <span>王铁锤怪蜀黍</span>
+                </div>
+            </div>
+            <div class="ui1">
+                <div class="nnn">
+                    <span>ID：</span>
+                </div>
+                <div class="vvv">
+                    <span>123456789</span>
+                </div>
+            </div>
+            <div class="ui1">
+                <div class="nnn">
+                    <span>性别：</span>
+                </div>
+                <div class="vvv">
+                    <span>男</span>
+                </div>
+            </div>
+            <!--<div class="ui1">
+                <div class="nnn">
+                    <span>职业：</span>
+                </div>
+                <div class="vvv">
+                    <span>学生</span>
+                </div>
+            </div>-->
+            <div class="ui1">
+                <div class="nnn">
+                    <span>年龄：</span>
+                </div>
+                <div class="vvv">
+                    <span>26</span>
+                </div>
+            </div>
+            <div class="ui1">
+                <div class="nnn">
+                    <span>生日：</span>
+                </div>
+                <div class="vvv">
+                    <span>1992年02月08日</span>
+                </div>
+            </div>
+            <div class="ui1">
+                <div class="nnn">
+                    <span>所在地：</span>
+                </div>
+                <div class="vvv">
+                    <span>中国河南郑州</span>
+                </div>
+            </div>
+            <div class="qianming">
+                <div class="nnn">
+                    <span>签名：</span>
+                </div>
+                <div class="sss">
+                    <span>写一句话介绍自己吧</span>
+                </div>
+            </div>
+        </div>
+        <div class="cont_user_info_" style="display: none;">
+b
+        </div>
+        <div class="cont_user_info_" style="display: none;">
+c
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $(function () {
+        $(".cont_tab li").click(function() {
+            var Num = $(this).index("li");
+            $(".cont_tab li").removeClass("on").eq(Num).addClass("on");
+            $(".cont_user_info_").hide().eq(Num).show();
+        });
+    })
+</script>
+</html>

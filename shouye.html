@@ -1,0 +1,366 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="./css/clear.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/shouye.css">
+	<script src="./js/jquery.1.9.1.min.js"></script>
+	<script src="./js/common.js"></script>
+	<script src="./js/main_sy.js"></script>
+	<script src="./js/easySlider.min.js"></script>
+	<title>首页</title>
+</head>
+<body>
+	<div class="header">
+	<div class="logo left"></div>
+	<ul class="nav left">
+		<li><a href="#" class="sy_nav_visited">首页</a></li>
+		<li><a href="#">直播</a></li>
+		<li><a href="#">视频</a></li>
+		<li><a href="#">同城</a></li>
+		<li><a href="#">租号</a></li>
+	</ul>
+	<div class="navse left">
+		<form action="" method="post" name="" id="">
+			<input type="text" name="sy_search" id="sy_search" placeholder="穿越火线" class="sy_search left">
+			<span class="sy_submit left"></span>
+			<div class="clear"></div>
+		</form>
+	</div>
+
+	<div class="right">
+		<div class="togg sy-close left" onclick="sy_close_1()"></div>
+		<div class="togg sy-mid left" onclick="sy_mid_1()"></div>
+		<div class="togg sy-min left" onclick="sy_min_1()"></div>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+</div>
+	<div class="wrap">
+		<div class="sy_right right">
+		<div class="playerInfo">
+			<div class="playerInfo_tit left">
+				<img src="./img/shouye/touxiang.png" alt="头像" id="playerInfo_tit">
+			</div>
+			<div class="playerInfo_con left" id='playerInfo_con'>
+				<p id="name_">饭饭_YY</p>
+				<p id="grade_">
+				<span id="grade_icon_"></span>
+				<span id="grade_icon_"></span>
+				LV2</p>
+				<p class="icon_">
+					<span id="icon_1"></span>
+					<span id="icon_2"></span>
+					<span id="icon_3"></span>
+					<span id="icon_4"></span>
+				</p>
+			</div>
+			<div class="clear"></div>
+			<span id="playerInfo_bdyx">绑定游戏</span>
+		</div>
+		<div class="recentGames">
+			<div class="recentGames_tit">
+				<div class="recentGames_titb">最近在玩的游戏</div>
+			</div>
+			<div class="recgam">
+				<img src="./img/shouye/g_icon.png" class="left">
+				<div class="recgam left">
+					<span>部落冲突:皇室战争</span>
+					<span>部落冲突:皇室战争</span>
+				</div>
+			</div>
+			<ul class="recgamelist">
+				<li>
+					<span>03-15</span>
+					<span>皇室战争</span>
+					<span>经典回归</span>
+				</li>
+				<li>
+					<span>03-15</span>
+					<span>皇室战争</span>
+					<span>经典回归</span>
+				</li>
+			</ul>
+		</div>
+		<div class="friend"></div>
+
+	</div>
+		<div class="sy_left">
+		<div class="sy_left_con">
+			<div class="sy_left_top">
+				<!--<div class="slider">
+					<ul>
+						<li><img src="./img/shouye/1.png"></li>
+						<li><img src="./img/shouye/1.png"></li>
+						<li><img src="./img/shouye/1.png"></li>
+						<li><img src="./img/shouye/1.png"></li>
+						<li><img src="./img/shouye/1.png"></li>
+					</ul>
+					<ol>
+						<li class="current"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ol>
+				</div>-->
+				<div id="slider">
+					<ul class="slides clearfix">
+						<li><img class="responsive" src="./img/shouye/1.png"></li>
+						<li><img class="responsive" src="./img/shouye/1.png"></li>
+						<li><img class="responsive" src="./img/shouye/1.png"></li>
+						<li><img class="responsive" src="./img/shouye/1.png"></li>
+					</ul>
+					<ul class="controls">
+						<li><img src="img/shouye/prev.png" alt="previous"></li>
+						<li><img src="img/shouye/next.png" alt="next"></li>
+					</ul>
+					<ul class="pagination">
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+
+				<div class="news">
+					<ul>
+						<!--<li class="news-list" v-for="newdata in newsData">
+							<div class="listfr">
+								<span class="news-one"><img v-bind:src="newdata.img_src"></span>
+								<span class="news-two">{{newdata.title}}</span>
+								<span class="news-three">{{newdata.time}}</span>
+							</div>
+						</li>-->
+						<li class="news-list">
+							<div class="listfr">
+								<span class="news-one"><img src="img/shouye/v.png"></span>
+								<span class="news-two">神仙级回合制仙侠手游震撼重生</span>
+								<span class="news-three">2017-02-11</span>
+							</div>
+						</li>
+						<li class="news-list">
+							<div class="listfr">
+								<span class="news-one"><img src="img/shouye/v.png"></span>
+								<span class="news-two">神仙级回合制仙侠手游震撼重生</span>
+								<span class="news-three">2017-02-11</span>
+							</div>
+						</li>
+						<li class="news-list">
+							<div class="listfr">
+								<span class="news-one"><img src="img/shouye/v.png"></span>
+								<span class="news-two">神仙级回合制仙侠手游震撼重生</span>
+								<span class="news-three">2017-02-11</span>
+							</div>
+						</li>
+						<li class="news-list">
+							<div class="listfr">
+								<span class="news-one"><img src="img/shouye/v.png"></span>
+								<span class="news-two">神仙级回合制仙侠手游震撼重生</span>
+								<span class="news-three">2017-02-11</span>
+							</div>
+						</li>
+						<li class="news-list">
+							<div class="listfr">
+								<span class="news-one"><img src="img/shouye/v.png"></span>
+								<span class="news-two">神仙级回合制仙侠手游震撼重生</span>
+								<span class="news-three">2017-02-11</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="sy_left_middle">
+				<div class="middle_title">
+					<div class="middle_title_left"><img src="img/shouye/game.png">  热门游戏</div>
+					<div class="middle_title_right">共有<span>108</span>款热门游戏 更多游戏>></div>
+				</div>
+				<div class="middle_content">
+					<ul class="middle_contentul">
+						<li>
+							<div class="middle_game">
+								<img src="img/shouye/middle.png">
+								<p class="game_title">英雄联盟</p>
+								<p class="game_info">在线房间：<span>123</span></p>
+								<p class="game_info">在线人数：<span>123456</span></p>
+							</div>
+						</li>
+						<li>
+							<div class="middle_game">
+								<img src="img/shouye/middle.png">
+								<p class="game_title">英雄联盟</p>
+								<p class="game_info">在线房间：<span>123</span></p>
+								<p class="game_info">在线人数：<span>123456</span></p>
+							</div>
+						</li>
+						<li>
+							<div class="middle_game">
+								<img src="img/shouye/middle.png">
+								<p class="game_title">英雄联盟</p>
+								<p class="game_info">在线房间：<span>123</span></p>
+								<p class="game_info">在线人数：<span>123456</span></p>
+							</div>
+						</li>
+						<li>
+							<div class="middle_game">
+								<img src="img/shouye/middle.png">
+								<p class="game_title">英雄联盟</p>
+								<p class="game_info">在线房间：<span>123</span></p>
+								<p class="game_info">在线人数：<span>123456</span></p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="sy_left_bottom">
+				<div class="bottom_title">
+					<div class="bottom_title_left"><img src="img/shouye/king.png">  排行榜</div>
+					<div class="bottom_title_right">
+						<ul>
+							<li><span>综合榜</span></li>
+							<li><span class="bottom_title_right_border">收益排行</span></li>
+							<li><span>大神榜</span></li>
+							<li><span>活跃排行</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="bottom_rank">
+					<ul>
+						<li>
+							<div class="rank_content">
+								<div class="rank_id"><span><i>01</i></span></div>
+								<div class="rank_img"><img src="img/shouye/tx1.png"><span></span></div>
+								<div class="rank_info">
+									<div class="nickname">
+										<span class="nickname_">幻尘之灵</span>
+										<span class="nickname_dg"><img src="img/shouye/grade.png"><b>LV18</b></span>
+										<span><img src="img/shouye/fire.png"></span>
+									</div>
+									<div class="money">
+										<span class="money_">收到打赏：</span><span class="money_jb">123456金币</span>
+										<span class="money_ ss">老司机带队补贴：</span><span class="money_jb">123456金币</span>
+									</div>
+								</div>
+								<div class="add_friend">
+									<div class="show_info"><span>查看资料</span></div>
+									<div class="friend"><span>加为好友</span></div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="rank_content">
+								<div class="rank_id"><span><i>02</i></span></div>
+								<div class="rank_img"><img src="img/shouye/tx1.png"><span></span></div>
+								<div class="rank_info">
+									<div class="nickname">
+										<span class="nickname_">幻尘之灵</span>
+										<span class="nickname_dg"><img src="img/shouye/grade.png"><b>LV18</b></span>
+										<span><img src="img/shouye/fire.png"></span>
+									</div>
+									<div class="money">
+										<span class="money_">收到打赏：</span><span class="money_jb">123456金币</span>
+										<span class="money_ ss">老司机带队补贴：</span><span class="money_jb">123456金币</span>
+									</div>
+								</div>
+								<div class="add_friend">
+									<div class="show_info"><span>查看资料</span></div>
+									<div class="friend"><span>加为好友</span></div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="rank_content">
+								<div class="rank_id"><span><i>03</i></span></div>
+								<div class="rank_img"><img src="img/shouye/tx1.png"><span></span></div>
+								<div class="rank_info">
+									<div class="nickname">
+										<span class="nickname_">幻尘之灵</span>
+										<span class="nickname_dg"><img src="img/shouye/grade.png"><b>LV18</b></span>
+										<span><img src="img/shouye/fire.png"></span>
+									</div>
+									<div class="money">
+										<span class="money_">收到打赏：</span><span class="money_jb">123456金币</span>
+										<span class="money_ ss">老司机带队补贴：</span><span class="money_jb">123456金币</span>
+									</div>
+								</div>
+								<div class="add_friend">
+									<div class="show_info"><span>查看资料</span></div>
+									<div class="friend"><span>加为好友</span></div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="rank_content">
+								<div class="rank_id"><span><i>04</i></span></div>
+								<div class="rank_img"><img src="img/shouye/tx1.png"><span></span></div>
+								<div class="rank_info">
+									<div class="nickname">
+										<span class="nickname_">幻尘之灵</span>
+										<span class="nickname_dg"><img src="img/shouye/grade.png"><b>LV18</b></span>
+										<span><img src="img/shouye/fire.png"></span>
+									</div>
+									<div class="money">
+										<span class="money_">收到打赏：</span><span class="money_jb">123456金币</span>
+										<span class="money_ ss">老司机带队补贴：</span><span class="money_jb">123456金币</span>
+									</div>
+								</div>
+								<div class="add_friend">
+									<div class="show_info"><span>查看资料</span></div>
+									<div class="friend"><span>加为好友</span></div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="rank_content">
+								<div class="rank_id"><span><i>05</i></span></div>
+								<div class="rank_img"><img src="img/shouye/tx1.png"><span></span></div>
+								<div class="rank_info">
+									<div class="nickname">
+										<span class="nickname_">幻尘之灵</span>
+										<span class="nickname_dg"><img src="img/shouye/grade.png"><b>LV18</b></span>
+										<span><img src="img/shouye/fire.png"></span>
+									</div>
+									<div class="money">
+										<span class="money_">收到打赏：</span><span class="money_jb">123456金币</span>
+										<span class="money_ ss">老司机带队补贴：</span><span class="money_jb">123456金币</span>
+									</div>
+								</div>
+								<div class="add_friend">
+									<div class="show_info"><span>查看资料</span></div>
+									<div class="friend"><span>加为好友</span></div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="paginations">
+
+					<div class="badoo">
+						<span class="disabled">&lt; </span>
+						<a href="">1</a>
+						<a href="">2</a>
+						<a href="#">3</a>
+						<a href="#">4</a>
+						<a href="#">5</a>
+						<a href="#">6</a>
+						<a href="#">7</a>...
+						<a href="#">10</a>
+						<a href="#">11</a>
+						<a href="#">&gt;</a>
+					</div>
+					<p></p>
+					<br />
+					<br />
+					<br />
+
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

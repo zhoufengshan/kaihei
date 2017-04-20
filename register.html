@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="./css/clear.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/layer.css">
+	<script src="./js/jquery.1.9.1.min.js"></script>
+	<script src="./js/layer.js"></script>
+	<script src="./js/common.js"></script>
+	<title>注册</title>
+</head>
+<body>
+
+<div class="zc">
+	<div class="zc-right-top">
+		<div class="zc-fh" onclick="history_go()">〈 返回</div>
+		<div class="zc-td_" onmousedown="reg_mouse_down()"></div>
+		<div class="zc-btn2" onclick="reg_close_1()"></div>
+		<div class="zc-btn1" onclick="reg_min_1()"></div>
+		<div style="clear:both;"></div>
+	</div>
+	<div class="zc-right-con">
+		<h2 id="title">
+			<span class="select">手机注册</span>
+			<span>邮箱注册</span>
+			<span>自定义账号</span>
+		</h2>
+		<ul id="con">
+		<!-- 手机号注册 -->
+			<li class="show">
+				<form action="/v1/register" method="post" name="zcform" id="zcform">
+					<div class="logo_ipt">
+						<input type="text" class="ipt_logo ipt_ipt1" name="username" id="mobile" placeholder="请输入手机号" onblur="check_mobile()">
+					</div>
+					<p class="ipt_p1 ipt_p1_1"> * 该手机号已注册，请<a href="login.html">登陆</a></p>
+					<div class="logo_ipt">
+						<input type="text" class="ipt_logo ipt_ipt2" name="sms_code" id="yzm" placeholder="验证手机" onblur="check_yzm('yzm')">
+						<input type="button" id="send" onclick="send_sms()" class="send" value="获取验证码">
+					</div>
+					<div class="logo_ipt">
+						<input type="password" class="ipt_logo ipt_ipt3" name="password" id="password" placeholder="输入密码" onblur="check_password('password')">
+					</div>
+					<p class="ipt_p2"> * 8-12个字符，不可纯数字，不可使用空格</p>
+					<div class="logo_ipt">
+						<input type="password" class="ipt_logo ipt_ipt4" name="password_confirm" id="repassword" placeholder="请重复密码" onblur="check_repassword('password','repassword')">
+					</div>
+					<div class="reg_fwxy">
+						<input type="checkbox" id="fwxy1" style="display:none;" value="false">
+	        			<label for="fwxy1" class="reg_fwxy_xz hdh" onclick="reg_fwxy('fwxy1','hdh')"></label>
+						<span class="reg_fwxy_con">我已阅读并同意<a href="#">《用户服务协议》</a>全部内容</span>
+					</div>
+					<div class="logo_ipt reg_qrtj">
+						<input type="hidden" name="flag" value="3">
+						<input type="button" class="ipt_ipt5" id="sub_mob" value="注&nbsp;&nbsp;&nbsp;&nbsp;册">
+					</div>
+				</form>
+			</li>
+			<!-- 邮箱注册 -->
+			<li>
+				<form action="/v1/register" method="post" name="zcform_mail" id="zcform_mail">
+					<div class="logo_ipt">
+						<input type="text" value="" class="ipt_logo ipt_ipt1" name="username" id="mail" placeholder="请输入邮箱号码" onblur="check_mail()">
+					</div>
+					<p class="ipt_p1 ipt_p1_2"> * 该邮箱已注册，请<a href="login.html">登陆</a></p>
+					<div class="logo_ipt">
+						<input type="text" class="ipt_logo ipt_ipt2" name="sms_code" id="mail_yzm" placeholder="验证邮箱" onblur="check_yzm('mail_yzm')">
+						<input type="button" id="mail_send" onclick="send_mail()" class="send" value="获取验证码">
+					</div>
+					<div class="logo_ipt">
+						<input type="password" class="ipt_logo ipt_ipt3" name="password" id="mailpassword" placeholder="输入密码" onblur="check_password('mailpassword')">
+					</div>
+					<p class="ipt_p2"> * 8-12个字符，不可纯数字，不可使用空格</p>
+					<div class="logo_ipt">
+						<input type="password" class="ipt_logo ipt_ipt4" name="password_confirm" id="mailrepassword" placeholder="请重复密码" onblur="check_repassword('mailpassword','mailrepassword')">
+					</div>
+					<div class="reg_fwxy">
+						<input type="checkbox" id="fwxy2" style="display:none;" value="false">
+		        		<label for="fwxy2" class="reg_fwxy_xz hdd" onclick="reg_fwxy('fwxy2','hdd')"></label>
+						<span class="reg_fwxy_con">我已阅读并同意<a href="#">《用户服务协议》</a>全部内容</span>
+					</div>
+					<div class="logo_ipt reg_qrtj">
+						<input type="hidden" name="flag" value="2">
+						<input type="button" class="ipt_ipt5" id="sub_mail" value="注&nbsp;&nbsp;&nbsp;&nbsp;册">
+					</div>
+				</form>
+			</li>
+			<!-- //其他账号注册 -->
+			<li>
+				<form action="/v1/register" method="post" name="zcform_custom" id="zcform_custom">
+					<div class="logo_ipt">
+						<input type="text" class="ipt_logo ipt_ipt1" name="username" id="custom" placeholder="请输入你想注册的账号" onblur="check_custom()" onblur="">
+					</div>
+					<p class="ipt_p1_3"> * 4-16为英文账号</p>
+					
+					<div class="logo_ipt">
+						<input type="password" class="ipt_logo ipt_ipt3" name="password" id="custompassword" placeholder="输入密码" onblur="check_password('custompassword')">
+					</div>
+					<p class="ipt_p2"> * 8-12个字符，不可纯数字，不可使用空格</p>
+					<div class="logo_ipt">
+						<input type="password" class="ipt_logo ipt_ipt4" name="password_confirm" id="repassword_custom" placeholder="请重复密码" onblur="check_repassword('custompassword','repassword_custom')">
+					</div>
+					<div class="reg_fwxy">
+						<input type="checkbox" id="fwxy3" style="display:none;" value="false">
+		        		<label for="fwxy3" class="reg_fwxy_xz ddh" onclick="reg_fwxy('fwxy3','ddh')"></label>
+						<span class="reg_fwxy_con">我已阅读并同意<a href="#">《用户服务协议》</a>全部内容</span>
+					</div>
+					<div class="logo_ipt reg_qrtj">
+						<input type="hidden" name="flag" value="1">
+						<input type="button" class="ipt_ipt5" id="sub_custom" value="下&nbsp;&nbsp;一&nbsp;&nbsp;步">
+					</div>
+				</form>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<script>
+// tab切换
+
+var spans=document.getElementById('title').getElementsByTagName('span');
+var lis=document.getElementById('con').getElementsByTagName('li');
+spans[0].index=0;
+spans[1].index=1;
+spans[2].index=2;
+for (var i = 0; i < spans.length; i++) {
+	spans[i].onclick=function(){
+		for (var i = 0; i < lis.length; i++) {
+			lis[i].className="";
+			spans[i].className="";
+		}
+		spans[this.index].className="select";
+		lis[this.index].className="show";
+	}
+}
+
+	</script>
+	<script src="./js/reg_log.js"></script>
+</body>
+</html>
